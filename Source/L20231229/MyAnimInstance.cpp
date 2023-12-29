@@ -2,6 +2,8 @@
 
 
 #include "MyAnimInstance.h"
+#include "GameFramework/Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 void UMyAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 {
